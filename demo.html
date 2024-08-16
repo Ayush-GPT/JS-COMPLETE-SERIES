@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <h1 > WELCOME TO DOM AMIPULATION</h1>
+    <nav class="block" id="ayush">
+        <p class="paragraph"  >Welcome to website</p>
+
+    </nav>
+    <div class="block">
+        <h4>Hey my name is <span  id="username">👻 Ayush Mane 😎</span></h4>
+        <p class="block">Here is cde for u</p>
+        <pre><code>console.log("Hey im here")
+        </code></pre>
+    </div>
+    <script>
+    
+
+    const ele = document.getElementById("username");
+
+    //ele.remove(); // removing dom from element 
+    console.log(ele.id);
+    ele.setAttribute("area","123"); // seting attribute to an element using javascript
+    ele.setAttribute("size","200");
+    ele.innerHTML="<h1>Jhon Doe👾</h1>"
+
+    ele.classList.add("red-color" ,"underline");
+    console.log(ele.classList); 
+
+    ele.classList.remove("red-color"); // to remove the class from the html using javascript
+   ele.style.textDecoration ="underline"; // adding inline style using javascript
+   ele.style.color = "tomato"; // adding style using js
+   console.log(ele.parentElement);
+   ele.parentElement.style.backgroundColor="grey"; // applying style using javascirpt */
+
+   console.log(ele);
+
+    </script>
+</body>
+
+</html>

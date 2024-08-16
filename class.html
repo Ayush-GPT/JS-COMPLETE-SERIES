@@ -1,0 +1,39 @@
+
+<html>
+    <head>
+        <title>AyushDom</title>
+    </head>
+
+
+<body>
+    <h1 > WELCOME TO DOM AMIPULATION</h1>
+    <nav class="block" id="ayush">
+        <p class="paragraph"  >Welcome to website</p>
+
+    </nav>
+    <div class="block">
+        <h4>Hey my name is <span  id="username">👻 Ayush Mane 😎</span></h4>
+        <p class="block">Here is cde for u</p>
+        <pre><code>console.log("Hey im here")
+        </code></pre>
+    </div>
+
+
+    <div >
+        <h4>Hey my name is <span  id="username">👻 Ayush Mane 😎</span></h4>
+        <p class="block">Here is cde for u</p>
+        <pre><code>console.log("Hey im here")
+        </code></pre>
+    </div>
+
+
+
+    <script>
+        const ele = document.getElementsByClassName("block");
+        for( var i = 0 ; i< ele.length ; i++){
+            /* console.log(ele.item(i)); */
+           ele.item(i).style.background = "blue";
+        }
+    </script>
+</body>
+</html>
